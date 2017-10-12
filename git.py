@@ -1,16 +1,15 @@
 intructions = """
+  inicializar repositorio:
+  git init
 
-inicializar repositorio:
-git init
+  añadir archivos
+  git add .
 
-añadir archivos
-git add .
+  crear commits: 
+  git commit -m "mensaje de comit"
 
-crear commits: 
-git commit -m "mensaje de comit"
-
-subir los cambios:
-git push
+  subir los cambios:
+  git push
 """
 
 print (intructions)
